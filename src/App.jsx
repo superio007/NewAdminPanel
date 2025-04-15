@@ -8,8 +8,8 @@ import React from "react";
 import MainLayout from "./Layouts/MainLayout";
 import { ThemeProvider } from "./context/ThemeContext.jsx";
 import Homapage from "./Pages/Homepage.jsx";
-import NotFound from "./pages/NotFound.jsx";
-import TryPage from "./pages/TryPage.jsx";
+import NotFound from "./Pages/NotFound.jsx";
+import TryPage from "./Pages/TryPage.jsx";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(

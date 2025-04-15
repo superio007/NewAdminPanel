@@ -1,7 +1,6 @@
 // Homapage.jsx
 import React from "react";
 import { useTheme } from "../context/ThemeContext";
-import Navbar from "../components/General/Navbar";
 import SiteAudit from "../components/Home/SitAudit";
 
 const Homapage = () => {

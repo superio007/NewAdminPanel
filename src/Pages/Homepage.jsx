@@ -1,4 +1,3 @@
-// Homapage.jsx
 import React from "react";
 import { useTheme } from "../context/ThemeContext";
 import SiteAudit from "../components/Home/SitAudit";

@@ -7,7 +7,7 @@ import {
 import React from "react";
 import MainLayout from "./Layouts/MainLayout";
 import { ThemeProvider } from "./context/ThemeContext.jsx";
-import Homapage from "./pages/Homepage.jsx";
+import Homapage from "./Pages/Homepage.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import TryPage from "./pages/TryPage.jsx";
 function App() {

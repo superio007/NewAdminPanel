@@ -1,6 +1,7 @@
 import React from "react";
 import { useTheme } from "../context/ThemeContext";
 import SiteAudit from "../components/Home/SitAudit";
+import MainContent from "../components/Home/MainContent";
 
 const Homapage = () => {
   const { theme } = useTheme(); // This only works if wrapped with ThemeProvider
@@ -11,6 +12,7 @@ const Homapage = () => {
     >
       <SiteAudit theme={theme} />
       {/* other components */}
+      <MainContent theme={theme} />
     </div>
   );
 };
